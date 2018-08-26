@@ -1,0 +1,70 @@
+/* Harrison Miller
+CSS for toDoList.htm*/
+
+        body{
+            font-family: sans-serif;
+            width: 15%;
+        }
+        #inputDiv{
+            margin-bottom: -6px;
+        }
+        #txbNewTask{
+            border: 1.5px solid black;
+        }
+        #addButton{
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 3px 15px;
+            border-radius: 5px;
+            float: right;
+            cursor: pointer;
+        }
+        #editButton{
+            float: right;
+        }
+        #vertLine{
+            float: right;
+        }
+        #deleteButton{
+            float: right;
+        }
+        #taskBoxDiv{
+            border: 1.5px solid black;
+        }
+        li{
+            list-style: none;
+            margin-left: -40px;
+        }
+        #listCheckBoxes{
+            -webKit-appearance: none;
+            border: 1px solid black;
+            width: 15px;
+            height: 15px;
+            margin-bottom: -2px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        #listCheckBoxes:checked{
+            background-color: #00BFFF;
+        }
+        #listCheckBoxes:checked:after{
+            content: " ";
+            position: absolute;
+            width: 9px;
+            height: 4px;
+            transform: rotate(-45deg) translate(0px, 2px);
+            border-bottom: 2px solid white;
+            border-left: 2px solid white;
+        }
+        #txbTaskString{
+            font-size: 80%;
+            margin-left: 10px;
+            font-weight: 600;
+        }
+        button{
+            border: none;
+            color: #00BFFF;
+            background-color: white;
+            cursor: pointer;
+        }
