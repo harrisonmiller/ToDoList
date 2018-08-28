@@ -5,6 +5,12 @@ CSS for toDoList.htm*/
             font-family: sans-serif;
             width: 15%;
         }
+        h1{
+            font-size: 140%;
+        }
+        h2{
+            font-size: 80%;
+        }
         #inputDiv{
             margin-bottom: -6px;
         }
